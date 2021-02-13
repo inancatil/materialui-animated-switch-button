@@ -1,0 +1,38 @@
+{
+  "name": "materialui-animated-switch-button",
+  "version": "1.0.0",
+  "description": "Animated material ui switch button",
+  "main": "rollup.config.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react-dom": "^17.0.1",
+    "react": "^17.0.1",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup": "^2.39.0",
+    "typescript": "^4.1.5"
+  },
+  "peerDependencies": {
+    "react-dom": "^17.0.1",
+    "react": "^17.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inancatil/materialui-animated-switch-button.git"
+  },
+  "author": "inanc atil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inancatil/materialui-animated-switch-button/issues"
+  },
+  "homepage": "https://github.com/inancatil/materialui-animated-switch-button#readme",
+  "files": ["dist"]
+
+}
